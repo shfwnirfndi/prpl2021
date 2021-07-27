@@ -54,6 +54,7 @@ $data=[
 
 ];
 
+
 UserRequest::validate($data);
 $user=new User($data);
 print_r(Json::from($user));
